@@ -1,0 +1,6 @@
+opensmell>=0.1
+numpy
+pandas
+scipy
+scikit-learn
+joblib

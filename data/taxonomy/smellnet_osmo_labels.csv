@@ -1,0 +1,51 @@
+substance,grand_family,subfamily,assignment_method
+allspice,Woody,Spicy,automatic
+almond,Fruity,Cherry/Almondy,automatic
+apple,Fruity,Appley/Peary,automatic
+banana,Fruity,Tropical,automatic
+cinnamon,Woody,Spicy,automatic
+cloves,Woody,Spicy,automatic
+coriander,Woody,Spicy,automatic
+cumin,Woody,Spicy,automatic
+dill,Herbal,Herbal Others,automatic
+garlic,Mineral,Sulfury,automatic
+ginger,Woody,Spicy,automatic
+kiwi,Fruity,Tropical,automatic
+lemon,Citrus,Lemony/Limey,automatic
+mandarin_orange,Citrus,Orange/Mandarin,automatic
+mango,Fruity,Tropical,automatic
+mint,Herbal,Minty,automatic
+nutmeg,Woody,Spicy,automatic
+oregano,Herbal,Herbal Others,automatic
+peach,Fruity,Peachy,automatic
+peanuts,Woody,Nutty,automatic
+pear,Fruity,Appley/Peary,automatic
+pineapple,Fruity,Tropical,automatic
+saffron,Woody,Spicy,automatic
+star_anise,Herbal,Anisic,automatic
+strawberry,Fruity,Berries,automatic
+angelica,Herbal,Herbal Others,manual
+asparagus,Green,Green Others,manual
+avocado,Woody,Nutty,manual
+brazil_nut,Woody,Nutty,manual
+broccoli,Green,Green Others,manual
+brussel_sprouts,Green,Green Others,manual
+cabbage,Green,Green Others,manual
+cashew,Woody,Nutty,manual
+cauliflower,Green,Green Others,manual
+chamomile,Floral,Floral Others,manual
+chervil,Herbal,Herbal Others,manual
+chestnuts,Woody,Nutty,manual
+chives,Green,Alliaceous,manual
+hazelnut,Woody,Nutty,manual
+mugwort,Herbal,Herbal Others,manual
+mustard,Woody,Spicy,manual
+pecans,Woody,Nutty,manual
+pili_nut,Woody,Nutty,manual
+pistachios,Woody,Nutty,manual
+potato,Soulful,Starchy,manual
+radish,Green,Green Others,manual
+sweet_potato,Soulful,Starchy,manual
+tomato,Fruity,Fruity Others,manual
+turnip,Green,Green Others,manual
+walnuts,Woody,Nutty,manual

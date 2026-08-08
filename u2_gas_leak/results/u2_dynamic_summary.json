@@ -1,0 +1,31 @@
+{
+  "title": "U2c dynamic summary",
+  "experiment": "u2_dynamic",
+  "dataset": "UCI dynamic gas mixtures",
+  "version": "0.1.0",
+  "generated_utc": "2026-08-06T13:10:25+00:00",
+  "metrics": {
+    "title": "U2c dynamic mixtures \u2014 summary",
+    "experiment": "u2_dynamic",
+    "generated_utc": "2026-08-06T13:10:25+00:00",
+    "metrics": {
+      "files": [
+        "ethylene_CO.txt",
+        "ethylene_methane.txt"
+      ],
+      "any_gas_acc": {
+        "ethylene_CO.txt": 0.9809705042816366,
+        "ethylene_methane.txt": 0.9806034482758621
+      },
+      "any_gas_chance": {
+        "ethylene_CO.txt": 0.5,
+        "ethylene_methane.txt": 0.5
+      },
+      "any_gas_majority": {
+        "ethylene_CO.txt": 0.6860133206470028,
+        "ethylene_methane.txt": 0.6724137931034483
+      },
+      "total_runtime_s": 1634.5
+    }
+  }
+}

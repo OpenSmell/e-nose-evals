@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+
+# Large re-downloadable corpora — provenance + fetch instructions in
+# data/DATASETS.md (never commit ~1.5 GB of binaries).
+data/turbulent-mixtures/
+data/dynamic-mixtures/
+data/indoor-air/

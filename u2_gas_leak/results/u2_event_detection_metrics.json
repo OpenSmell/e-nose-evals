@@ -1,0 +1,77 @@
+{
+  "title": "U2B gas-leak temporal event detection",
+  "experiment": "u2_event_detection",
+  "dataset": "UCI turbulent gas mixtures",
+  "version": "0.1.0",
+  "generated_utc": "2026-08-06T11:13:09+00:00",
+  "metrics": {
+    "dataset": "turbulent-mixtures",
+    "recordings": 180,
+    "windows": 5220,
+    "window_s": 20.0,
+    "stride_s": 10.0,
+    "gas_fraction": 0.6551724137931034,
+    "classification": {
+      "n_samples": 5220,
+      "n_classes": 2,
+      "classes": [
+        "False",
+        "True"
+      ],
+      "accuracy": 0.9406130268199234,
+      "balanced_accuracy": 0.9438888888888889,
+      "f1_macro": 0.9354674664627829,
+      "chance": 0.5,
+      "majority_baseline": 0.6551724137931034,
+      "edge_over_chance_pp": 44.061302681992345,
+      "edge_over_majority_pp": 28.544061302682,
+      "per_class": {
+        "False": {
+          "n": 1800,
+          "accuracy": 0.9544444444444444
+        },
+        "True": {
+          "n": 3420,
+          "accuracy": 0.9333333333333333
+        }
+      },
+      "n_groups": 180,
+      "evaluation": "stratified-group-6fold (n_groups=180)"
+    },
+    "onset_latency": {
+      "n_recordings": 180,
+      "n_detected": 180,
+      "detection_rate_pct": 100.0,
+      "median_latency_s": 10.0,
+      "p75_latency_s": 10.0
+    },
+    "onset_window_accuracy": {
+      "n_samples": 900,
+      "n_classes": 2,
+      "classes": [
+        "False",
+        "True"
+      ],
+      "accuracy": 0.8422222222222222,
+      "balanced_accuracy": 0.8518518518518519,
+      "f1_macro": 0.8398295525755107,
+      "chance": 0.5,
+      "majority_baseline": 0.6,
+      "edge_over_chance_pp": 34.22222222222222,
+      "edge_over_majority_pp": 24.22222222222222,
+      "per_class": {
+        "False": {
+          "n": 360,
+          "accuracy": 0.9
+        },
+        "True": {
+          "n": 540,
+          "accuracy": 0.8037037037037037
+        }
+      },
+      "n_groups": 180,
+      "evaluation": "stratified-group-6fold (n_groups=180)"
+    },
+    "runtime_s": 1303.7
+  }
+}

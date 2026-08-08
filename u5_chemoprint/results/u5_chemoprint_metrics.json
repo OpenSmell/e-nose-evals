@@ -1,0 +1,116 @@
+{
+  "title": "U5 chemoprint per rig",
+  "experiment": "u5_chemoprint",
+  "dataset": "UCI gas sensor array drift (10 batches)",
+  "version": "0.1.0",
+  "generated_utc": "2026-08-06T13:36:13+00:00",
+  "metrics": {
+    "dataset": "uci-drift",
+    "rigs": [
+      6,
+      7,
+      9,
+      10
+    ],
+    "rig_fingerprinting": {
+      "rigs": [
+        "6",
+        "7",
+        "9",
+        "10"
+      ],
+      "evaluation": "leave-gas-out (train on 5 gases, test on the 6th)",
+      "pooled_accuracy": 0.7854352399078434,
+      "pooled_chance": 0.25,
+      "per_gas": {
+        "Ethanol": {
+          "n": 1824,
+          "accuracy": 0.78125,
+          "chance": 0.25,
+          "majority": 0.35581140350877194
+        },
+        "Ethylene": {
+          "n": 1891,
+          "accuracy": 0.6879957694341619,
+          "chance": 0.25,
+          "majority": 0.3500793231094659
+        },
+        "Ammonia": {
+          "n": 1170,
+          "accuracy": 0.794017094017094,
+          "chance": 0.25,
+          "majority": 0.5128205128205128
+        },
+        "Acetaldehyde": {
+          "n": 1448,
+          "accuracy": 0.9150552486187845,
+          "chance": 0.25,
+          "majority": 0.5138121546961326
+        },
+        "Acetone": {
+          "n": 1914,
+          "accuracy": 0.776907001044932,
+          "chance": 0.25,
+          "majority": 0.329153605015674
+        },
+        "Toluene": {
+          "n": 1736,
+          "accuracy": 0.7914746543778802,
+          "chance": 0.25,
+          "majority": 0.3456221198156682
+        }
+      }
+    },
+    "per_rig_calibration": {
+      "source_batches": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "target_batches": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "source_n": 3633,
+      "target_n": 10277,
+      "chance": 0.16666666666666666,
+      "majority_baseline": 0.2001556874574292,
+      "zero_shot_accuracy": 0.5232071616230417,
+      "in_target_ceiling_accuracy": 0.9949401576335506,
+      "in_target_ceiling_balanced": 0.9943707131205818,
+      "calibration_curve": [
+        {
+          "k_per_gas": 5,
+          "n_target_train_added": 30,
+          "accuracy_mean": 0.6559773592270909,
+          "accuracy_std": 0.014819015589806646
+        },
+        {
+          "k_per_gas": 10,
+          "n_target_train_added": 36,
+          "accuracy_mean": 0.7340706665361652,
+          "accuracy_std": 0.02308348989410079
+        },
+        {
+          "k_per_gas": 25,
+          "n_target_train_added": 36,
+          "accuracy_mean": 0.8354892860669498,
+          "accuracy_std": 0.009351400882144749
+        },
+        {
+          "k_per_gas": 50,
+          "n_target_train_added": 36,
+          "accuracy_mean": 0.9122782399518894,
+          "accuracy_std": 0.003896583522844254
+        }
+      ],
+      "k_repeats": 5
+    },
+    "runtime_s": 133.8
+  }
+}

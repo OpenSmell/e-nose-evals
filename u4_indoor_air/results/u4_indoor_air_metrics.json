@@ -1,0 +1,92 @@
+{
+  "title": "U4 indoor-air monitoring",
+  "experiment": "u4_indoor_air",
+  "dataset": "UCI-362 gas sensors for home activity monitoring",
+  "version": "0.1.0",
+  "generated_utc": "2026-08-06T15:19:16+00:00",
+  "metrics": {
+    "dataset": "uci-362-indoor-air",
+    "inductions": 99,
+    "conditions": [
+      "banana",
+      "wine",
+      "background"
+    ],
+    "channels": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8"
+    ],
+    "windows": 3960,
+    "window_s": 60.0,
+    "stride_s": 60.0,
+    "max_windows_per_induction": 40,
+    "classification": {
+      "binary_stimulus_detection": {
+        "n_samples": 3960,
+        "n_classes": 2,
+        "classes": [
+          "0",
+          "1"
+        ],
+        "accuracy": 0.876010101010101,
+        "balanced_accuracy": 0.7408922246584584,
+        "f1_macro": 0.7678484502992159,
+        "chance": 0.5,
+        "majority_baseline": 0.8166666666666667,
+        "edge_over_chance_pp": 37.601010101010104,
+        "edge_over_majority_pp": 5.934343434343436,
+        "per_class": {
+          "0": {
+            "n": 3234,
+            "accuracy": 0.9542362399505256
+          },
+          "1": {
+            "n": 726,
+            "accuracy": 0.5275482093663911
+          }
+        },
+        "n_groups": 99,
+        "evaluation": "LeaveOneGroupOut"
+      },
+      "three_class": {
+        "n_samples": 3960,
+        "n_classes": 3,
+        "classes": [
+          "0",
+          "1",
+          "2"
+        ],
+        "accuracy": 0.8603535353535353,
+        "balanced_accuracy": 0.5500284739415174,
+        "f1_macro": 0.5607957186718113,
+        "chance": 0.3333333333333333,
+        "majority_baseline": 0.8166666666666667,
+        "edge_over_chance_pp": 52.70202020202019,
+        "edge_over_majority_pp": 4.368686868686867,
+        "per_class": {
+          "0": {
+            "n": 3234,
+            "accuracy": 0.9675324675324676
+          },
+          "1": {
+            "n": 414,
+            "accuracy": 0.6376811594202898
+          },
+          "2": {
+            "n": 312,
+            "accuracy": 0.04487179487179487
+          }
+        },
+        "n_groups": 99,
+        "evaluation": "LeaveOneGroupOut"
+      }
+    },
+    "runtime_s": 2079.7
+  }
+}

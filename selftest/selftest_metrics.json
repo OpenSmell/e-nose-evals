@@ -1,0 +1,54 @@
+{
+  "title": "Harness self-test",
+  "experiment": "harness-selftest",
+  "dataset": "synthetic",
+  "version": "0.1.0",
+  "generated_utc": "2026-08-08T14:31:29+00:00",
+  "metrics": {
+    "extractor_features": 256,
+    "windows": 108,
+    "classification": {
+      "n_samples": 108,
+      "n_classes": 3,
+      "classes": [
+        "0",
+        "1",
+        "2"
+      ],
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1_macro": 1.0,
+      "chance": 0.3333333333333333,
+      "majority_baseline": 0.3333333333333333,
+      "edge_over_chance_pp": 66.66666666666667,
+      "edge_over_majority_pp": 66.66666666666667,
+      "per_class": {
+        "0": {
+          "n": 36,
+          "accuracy": 1.0
+        },
+        "1": {
+          "n": 36,
+          "accuracy": 1.0
+        },
+        "2": {
+          "n": 36,
+          "accuracy": 1.0
+        }
+      },
+      "n_groups": 36,
+      "evaluation": "stratified-group-6fold (n_groups=36)"
+    },
+    "regression": {
+      "evaluation": "stratified-group-6fold (n_groups=36)",
+      "n_samples": 108,
+      "r2": 0.997741049382716,
+      "mae": 0.014382716049382719,
+      "rmse": 0.038806791650293646,
+      "mean_predictor_r2": 0.0,
+      "mean_predictor_mae": 0.6666666666666666,
+      "edge_over_mean_predictor_mae_pct": 97.8425925925926,
+      "spearman": 0.9602727087518187
+    }
+  }
+}

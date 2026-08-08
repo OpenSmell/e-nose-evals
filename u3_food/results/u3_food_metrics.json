@@ -1,0 +1,163 @@
+{
+  "title": "U3 food-spoilage monitoring",
+  "experiment": "u3_food",
+  "dataset": "Harvard Dataverse beef spoilage (12 cuts)",
+  "version": "0.1.0",
+  "generated_utc": "2026-08-06T13:26:33+00:00",
+  "metrics": {
+    "dataset": "beef-spoilage",
+    "cuts": 12,
+    "channels": 11,
+    "windows": 876,
+    "window_s": 60.0,
+    "stride_s": 30.0,
+    "tvc_range_log10": [
+      1.87589,
+      5.75803314653214
+    ],
+    "per_channel_spearman_with_tvc": {
+      "MQ135": -0.634,
+      "MQ136": -0.495,
+      "MQ137": 0.832,
+      "MQ138": -0.247,
+      "MQ2": -0.311,
+      "MQ3": -0.602,
+      "MQ4": -0.904,
+      "MQ5": 0.93,
+      "MQ6": 0.361,
+      "MQ8": -0.568,
+      "MQ9": -0.446
+    },
+    "regression_tvc_log10_cfu_g": {
+      "evaluation": "LeaveOneGroupOut",
+      "n_samples": 876,
+      "r2": 0.7925058958206732,
+      "mae": 0.3835397221738144,
+      "rmse": 0.49460918479068816,
+      "mean_predictor_r2": 0.0,
+      "mean_predictor_mae": 0.9345587890792532,
+      "edge_over_mean_predictor_mae_pct": 58.960342928058516,
+      "spearman": 0.8494322405291991
+    },
+    "classification": {
+      "four_class_freshness": {
+        "n_samples": 876,
+        "n_classes": 4,
+        "classes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "accuracy": 0.7842465753424658,
+        "balanced_accuracy": 0.6452471467212033,
+        "f1_macro": 0.6418284021573548,
+        "chance": 0.25,
+        "majority_baseline": 0.6027397260273972,
+        "edge_over_chance_pp": 53.42465753424658,
+        "edge_over_majority_pp": 18.150684931506856,
+        "per_class": {
+          "1": {
+            "n": 106,
+            "accuracy": 0.8113207547169812
+          },
+          "2": {
+            "n": 138,
+            "accuracy": 0.6666666666666666
+          },
+          "3": {
+            "n": 104,
+            "accuracy": 0.17307692307692307
+          },
+          "4": {
+            "n": 528,
+            "accuracy": 0.9299242424242424
+          }
+        },
+        "n_groups": 12,
+        "evaluation": "LeaveOneGroupOut"
+      },
+      "binary_spoiled_tvc_ge_5": {
+        "n_samples": 876,
+        "n_classes": 2,
+        "classes": [
+          "0",
+          "1"
+        ],
+        "accuracy": 0.8504566210045662,
+        "balanced_accuracy": 0.8475378787878788,
+        "f1_macro": 0.8449559616888986,
+        "chance": 0.5,
+        "majority_baseline": 0.6027397260273972,
+        "edge_over_chance_pp": 35.04566210045662,
+        "edge_over_majority_pp": 24.7716894977169,
+        "per_class": {
+          "0": {
+            "n": 348,
+            "accuracy": 0.8333333333333334
+          },
+          "1": {
+            "n": 528,
+            "accuracy": 0.8617424242424242
+          }
+        },
+        "n_groups": 12,
+        "evaluation": "LeaveOneGroupOut"
+      },
+      "per_cut_four_class": {
+        "pooled_accuracy": 0.7876712328767124,
+        "per_cut": {
+          "1.Inside-Outside": {
+            "n": 73,
+            "accuracy": 0.8082191780821918
+          },
+          "10.Clod_Chuck": {
+            "n": 73,
+            "accuracy": 0.589041095890411
+          },
+          "11.Shin": {
+            "n": 73,
+            "accuracy": 0.8356164383561644
+          },
+          "12.Fat": {
+            "n": 73,
+            "accuracy": 0.7123287671232876
+          },
+          "2.Round": {
+            "n": 73,
+            "accuracy": 0.863013698630137
+          },
+          "3.Top_Sirloin": {
+            "n": 73,
+            "accuracy": 0.863013698630137
+          },
+          "4.Tenderloin": {
+            "n": 73,
+            "accuracy": 0.9178082191780822
+          },
+          "5.Flap_meat": {
+            "n": 73,
+            "accuracy": 0.7534246575342466
+          },
+          "6.Striploin": {
+            "n": 73,
+            "accuracy": 0.863013698630137
+          },
+          "7.Rib_eye": {
+            "n": 73,
+            "accuracy": 0.8493150684931506
+          },
+          "8.Skirt_meat": {
+            "n": 73,
+            "accuracy": 0.547945205479452
+          },
+          "9.Brisket": {
+            "n": 73,
+            "accuracy": 0.8493150684931506
+          }
+        }
+      }
+    },
+    "runtime_s": 486.8
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "title": "U2 gas-leak / mixed-gas identification",
+  "experiment": "u2_gas_leak",
+  "dataset": "UCI turbulent gas mixtures",
+  "version": "0.1.0",
+  "generated_utc": "2026-08-06T10:49:37+00:00",
+  "metrics": {
+    "dataset": "turbulent-mixtures",
+    "recordings": 180,
+    "channels": 8,
+    "windows": 1260,
+    "power_law_calibration": {
+      "ethylene": {
+        "per_channel": [
+          {
+            "a": 0.8248796603431829,
+            "b": 0.09251745870470006,
+            "loglog_r2": 0.2608772909154446,
+            "n_points": 36,
+            "channel": 0
+          },
+          {
+            "a": 0.8901480246615413,
+            "b": 0.05184282969157323,
+            "loglog_r2": 0.26031778779255815,
+            "n_points": 36,
+            "channel": 1
+          },
+          {
+            "a": 0.807563304053356,
+            "b": 0.09445208038327543,
+            "loglog_r2": 0.23313343677142973,
+            "n_points": 36,
+            "channel": 2
+          },
+          {
+            "a": 0.888824604146699,
+            "b": 0.0527826359001514,
+            "loglog_r2": 0.20162096982849909,
+            "n_points": 36,
+            "channel": 3
+          },
+          {
+            "a": 0.7421763116682,
+            "b": 0.1474037796055358,
+            "loglog_r2": 0.3191750466094501,
+            "n_points": 36,
+            "channel": 4
+          },
+          {
+            "a": 0.7343517556767695,
+            "b": 0.15438895195363497,
+            "loglog_r2": 0.29887795981332943,
+            "n_points": 36,
+            "channel": 5
+          },
+          {
+            "a": 0.7454790681370131,
+            "b": 0.1525393810929833,
+            "loglog_r2": 0.2919583261416609,
+            "n_points": 36,
+            "channel": 6
+          },
+          {
+            "a": 0.7330434576517638,
+            "b": 0.1550445391849904,
+            "loglog_r2": 0.2975845420744465,
+            "n_points": 36,
+            "channel": 7
+          }
+        ],
+        "n_recordings": 36,
+        "n_levels": 3,
+        "overall": {
+          "channel": 4,
+          "a": 0.7421763116682,
+          "b": 0.1474037796055358,
+          "loglog_r2": 0.3191750466094501,
+          "n_points": 36,
+          "median_r2": 0.27641780852855274
+        }
+      },
+      "CO": {
+        "per_channel": [
+          {
+            "a": 0.43113098987370646,
+            "b": 0.16111041142386381,
+            "loglog_r2": 0.4625630824261733,
+            "n_points": 18,
+            "channel": 0
+          },
+          {
+            "a": 0.4025459851368439,
+            "b": 0.17465471352091594,
+            "loglog_r2": 0.5932686169742766,
+            "n_points": 18,
+            "channel": 1
+          },
+          {
+            "a": 0.3332876334252617,
+            "b": 0.2208571879514794,
+            "loglog_r2": 0.31721536444166815,
+            "n_points": 18,
+            "channel": 2
+          },
+          {
+            "a": 0.13151681036809856,
+            "b": 0.3923634185764402,
+            "loglog_r2": 0.3767000612608235,
+            "n_points": 18,
+            "channel": 3
+          },
+          {
+            "a": 0.2837899658233978,
+            "b": 0.2297780184194798,
+            "loglog_r2": 0.2852042459527443,
+            "n_points": 18,
+            "channel": 4
+          },
+          {
+            "a": 0.2631761276536557,
+            "b": 0.2480990326851808,
+            "loglog_r2": 0.25692702288840846,
+            "n_points": 18,
+            "channel": 5
+          },
+          {
+            "a": 0.25532189433192803,
+            "b": 0.2470993303745897,
+            "loglog_r2": 0.31897427405816997,
+            "n_points": 18,
+            "channel": 6
+          },
+          {
+            "a": 0.36424958318476724,
+            "b": 0.18145982882213915,
+            "loglog_r2": 0.3220168598449831,
+            "n_points": 18,
+            "channel": 7
+          }
+        ],
+        "n_recordings": 18,
+        "n_levels": 3,
+        "overall": {
+          "channel": 1,
+          "a": 0.4025459851368439,
+          "b": 0.17465471352091594,
+          "loglog_r2": 0.5932686169742766,
+          "n_points": 18,
+          "median_r2": 0.32049556695157655
+        }
+      },
+      "Me": {
+        "per_channel": [
+          {
+            "a": 0.5168722105042932,
+            "b": 0.18059331332479167,
+            "loglog_r2": 0.5068014546551798,
+            "n_points": 18,
+            "channel": 0
+          },
+          {
+            "a": 0.4435715907891411,
+            "b": 0.22098962349478385,
+            "loglog_r2": 0.6039076886196962,
+            "n_points": 18,
+            "channel": 1
+          },
+          {
+            "a": 0.47361269477759693,
+            "b": 0.20709139203915122,
+            "loglog_r2": 0.5382282006704473,
+            "n_points": 18,
+            "channel": 2
+          },
+          {
+            "a": 0.9942592611659897,
+            "b": 0.0036643784685094546,
+            "loglog_r2": 0.0038397881649385305,
+            "n_points": 18,
+            "channel": 3
+          },
+          {
+            "a": 0.8697456009744795,
+            "b": 0.0387574346510639,
+            "loglog_r2": 0.09117621714772622,
+            "n_points": 18,
+            "channel": 4
+          },
+          {
+            "a": 0.950704967870063,
+            "b": 0.015047777625201675,
+            "loglog_r2": 0.04259155630205758,
+            "n_points": 18,
+            "channel": 5
+          },
+          {
+            "a": 1.0042067279227518,
+            "b": -0.0003420541929302317,
+            "loglog_r2": 0.00022045212239257212,
+            "n_points": 18,
+            "channel": 6
+          },
+          {
+            "a": 1.0029693980297951,
+            "b": 0.00012657339647265513,
+            "loglog_r2": 1.817972422848801e-05,
+            "n_points": 18,
+            "channel": 7
+          }
+        ],
+        "n_recordings": 18,
+        "n_levels": 3,
+        "overall": {
+          "channel": 1,
+          "a": 0.4435715907891411,
+          "b": 0.22098962349478385,
+          "loglog_r2": 0.6039076886196962,
+          "n_points": 18,
+          "median_r2": 0.0668838867248919
+        }
+      }
+    },
+    "loocv_concentration_recovery": {
+      "ethylene": {
+        "n_predictions": 288,
+        "n_levels": 3,
+        "median_log10_error_decades": 0.18907033452108168,
+        "p75_log10_error_decades": 0.37373482931051866,
+        "within_one_decade_pct": 100.0,
+        "config_median_ppm": {
+          "31": 22.93605389002507,
+          "46": 57.69810558995539,
+          "96": 74.04085687223761
+        },
+        "config_order_spearman": 1.0
+      },
+      "CO": {
+        "n_predictions": 144,
+        "n_levels": 3,
+        "median_log10_error_decades": 0.15565552647320247,
+        "p75_log10_error_decades": 0.2565595637859093,
+        "within_one_decade_pct": 94.44444444444444,
+        "config_median_ppm": {
+          "270": 378.9241548237543,
+          "397": 294.8156764716142,
+          "460": 1252.9611399662433
+        },
+        "config_order_spearman": 0.5
+      },
+      "Me": {
+        "n_predictions": 96,
+        "n_levels": 3,
+        "median_log10_error_decades": 0.2953478513947013,
+        "p75_log10_error_decades": 0.40908945662360974,
+        "within_one_decade_pct": 97.91666666666666,
+        "config_median_ppm": {
+          "51": 107.77431383987457,
+          "115": 63.961798974608485,
+          "131": 178.14395458499723
+        },
+        "config_order_spearman": 0.5
+      }
+    },
+    "classification": {
+      "mixture_identity": {
+        "n_samples": 1260,
+        "n_classes": 4,
+        "classes": [
+          "CO",
+          "Me",
+          "both",
+          "ethylene"
+        ],
+        "accuracy": 0.8920634920634921,
+        "balanced_accuracy": 0.8392857142857143,
+        "f1_macro": 0.8690384835014232,
+        "chance": 0.25,
+        "majority_baseline": 0.6,
+        "edge_over_chance_pp": 64.20634920634922,
+        "edge_over_majority_pp": 29.206349206349213,
+        "per_class": {
+          "CO": {
+            "n": 126,
+            "accuracy": 0.7301587301587301
+          },
+          "Me": {
+            "n": 126,
+            "accuracy": 0.9365079365079365
+          },
+          "both": {
+            "n": 756,
+            "accuracy": 0.9682539682539683
+          },
+          "ethylene": {
+            "n": 252,
+            "accuracy": 0.7222222222222222
+          }
+        },
+        "n_groups": 180,
+        "evaluation": "stratified-group-6fold (n_groups=180)"
+      },
+      "secondary_gas_id": {
+        "n_samples": 1008,
+        "n_classes": 2,
+        "classes": [
+          "CO",
+          "Me"
+        ],
+        "accuracy": 0.9494047619047619,
+        "balanced_accuracy": 0.9494047619047619,
+        "f1_macro": 0.9494043137428585,
+        "chance": 0.5,
+        "majority_baseline": 0.5,
+        "edge_over_chance_pp": 44.94047619047619,
+        "edge_over_majority_pp": 44.94047619047619,
+        "per_class": {
+          "CO": {
+            "n": 504,
+            "accuracy": 0.9523809523809523
+          },
+          "Me": {
+            "n": 504,
+            "accuracy": 0.9464285714285714
+          }
+        },
+        "n_groups": 144,
+        "evaluation": "stratified-group-6fold (n_groups=144)"
+      }
+    },
+    "regression": {
+      "ethylene_ppm": {
+        "evaluation": "stratified-group-6fold (n_groups=180)",
+        "n_samples": 1260,
+        "r2": 0.6781492831003391,
+        "mae": 14.60998677248677,
+        "rmse": 19.237455372662144,
+        "mean_predictor_r2": 0.0,
+        "mean_predictor_mae": 26.59555555555555,
+        "edge_over_mean_predictor_mae_pct": 45.06605909409218,
+        "spearman": 0.8514004133334373
+      },
+      "gas2_ppm": {
+        "evaluation": "stratified-group-6fold (n_groups=180)",
+        "n_samples": 1260,
+        "r2": 0.8544632396102748,
+        "mae": 40.847116402116406,
+        "rmse": 63.02924125900665,
+        "mean_predictor_r2": 0.0,
+        "mean_predictor_mae": 148.64,
+        "edge_over_mean_predictor_mae_pct": 72.51943191461491,
+        "spearman": 0.9021467543474416
+      }
+    },
+    "runtime_s": 674.0
+  }
+}

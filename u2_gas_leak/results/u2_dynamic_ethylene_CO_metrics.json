@@ -1,0 +1,108 @@
+{
+  "title": "U2c \u2014 dynamic mixtures (ethylene_CO.txt)",
+  "experiment": "u2_dynamic_ethylene_CO",
+  "dataset": "UCI dynamic gas mixtures (ethylene_CO.txt)",
+  "version": "0.1.0",
+  "generated_utc": "2026-08-06T12:52:27+00:00",
+  "metrics": {
+    "dataset": "dynamic-mixtures/ethylene_CO.txt",
+    "channels": 16,
+    "samples": 420827,
+    "windows": 1051,
+    "window_s": 60.0,
+    "stride_s": 30.0,
+    "n_episodes": 274,
+    "air_fraction": 0.3139866793529971,
+    "classification": {
+      "any_gas": {
+        "n_samples": 1051,
+        "n_classes": 2,
+        "classes": [
+          "False",
+          "True"
+        ],
+        "accuracy": 0.9809705042816366,
+        "balanced_accuracy": 0.9787353423275753,
+        "f1_macro": 0.9779498153742867,
+        "chance": 0.5,
+        "majority_baseline": 0.6860133206470028,
+        "edge_over_chance_pp": 48.097050428163655,
+        "edge_over_majority_pp": 29.495718363463375,
+        "per_class": {
+          "False": {
+            "n": 330,
+            "accuracy": 0.9727272727272728
+          },
+          "True": {
+            "n": 721,
+            "accuracy": 0.984743411927878
+          }
+        },
+        "n_groups": 274,
+        "evaluation": "StratifiedGroupKFold"
+      },
+      "four_state": {
+        "n_samples": 1051,
+        "n_classes": 4,
+        "classes": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "accuracy": 0.9581351094196003,
+        "balanced_accuracy": 0.9580797773654917,
+        "f1_macro": 0.9563797568714362,
+        "chance": 0.25,
+        "majority_baseline": 0.3139866793529971,
+        "edge_over_chance_pp": 70.81351094196003,
+        "edge_over_majority_pp": 64.41484300666032,
+        "per_class": {
+          "0": {
+            "n": 330,
+            "accuracy": 0.9727272727272728
+          },
+          "1": {
+            "n": 196,
+            "accuracy": 0.9795918367346939
+          },
+          "2": {
+            "n": 300,
+            "accuracy": 0.9466666666666667
+          },
+          "3": {
+            "n": 225,
+            "accuracy": 0.9333333333333333
+          }
+        },
+        "n_groups": 274,
+        "evaluation": "StratifiedGroupKFold"
+      }
+    },
+    "regression": {
+      "ethylene_ppm": {
+        "evaluation": "GroupKFold",
+        "n_samples": 1051,
+        "r2": 0.9236735724838779,
+        "mae": 0.7189887725975267,
+        "rmse": 1.5825898706001726,
+        "mean_predictor_r2": 0.0,
+        "mean_predictor_mae": 5.227023839377296,
+        "edge_over_mean_predictor_mae_pct": 86.2447772443452,
+        "spearman": 0.9060985473786041
+      },
+      "gas2_ppm": {
+        "evaluation": "GroupKFold",
+        "n_samples": 1051,
+        "r2": 0.9178136086839591,
+        "mae": 19.16690076117982,
+        "rmse": 45.66938851298201,
+        "mean_predictor_r2": 0.0,
+        "mean_predictor_mae": 146.737623811675,
+        "edge_over_mean_predictor_mae_pct": 86.93797796141303,
+        "spearman": 0.9000199266745785
+      }
+    },
+    "runtime_s": 556.8
+  }
+}
