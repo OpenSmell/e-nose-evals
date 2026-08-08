@@ -93,5 +93,5 @@ see `data/DATASETS.md`.
 ## See also
 
 - [OpenSmell project](https://github.com/opensmell) — SDK, web, hardware, science layer
-- [OpenSmell Academy](https://opensmell.onrender.com) — the "U-suite" essay walks this suite and its summary table
+- [OpenSmell Academy](https://opensmell.xyz) — the "U-suite" essay walks this suite and its summary table
 - `session-invariance` / `encoder` / `interoperability` — companion evaluation and representation-learning work
