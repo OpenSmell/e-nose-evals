@@ -5,13 +5,13 @@ OpenSmell framework: six experiments (U1–U6) run on public datasets through on
 shared harness, scored under a recording-fair protocol, every headline carrying
 its null baseline in the same table.
 
-**This is an evaluation suite, not a formal benchmark.** A benchmark means
-frozen standardized splits, a fixed task/metric contract, and a leaderboard;
-this suite has none of those yet (some numbers move between runs — e.g. U5's
-k-shot curve is averaged over 5 seeds). What it does guarantee is reproducible
-procedure, honest baselines, and committed result artifacts with provenance. A
-formal benchmark with frozen splits and a leaderboard is a separate, future
-project — nothing here should be read as a standing claim on one.
+**This is an evaluation suite with a fixed protocol.** Six experiments, one shared
+harness, recorded with the same rules every time: recording-fair grouping (no
+window leaks across the train/test boundary), every headline carrying its null
+baseline in the same table, and committed result artifacts with provenance. Some
+numbers are seed-averaged (U5's k-shot curve averages 5 seeds); the suite is
+built to be re-run end-to-end, so every claim is checkable against the checked-in
+artifacts in this repo.
 
 ## The six experiments (U1–U6)
 
@@ -24,7 +24,7 @@ project — nothing here should be read as a standing claim on one.
 | U5 | Rig chemoprinting + per-rig calibration | UCI drift (146), 10 batches | rig fingerprint 78.5% (chance 25%); zero-shot 52.3% vs ceiling 99.5% |
 | U6 | Smell taxonomy: identity vs perceptual family | SmellNet offline + OSMO | 50-substance identity 89.4%; family (LSO) 40.2% ≈ majority 38.1% |
 
-Full numbers, per-class detail, and honest reads are in each
+Full numbers, per-class detail, and the analysis are in each
 `uN_*/results/*_metrics.json` and `*_analysis.md`.
 
 ## Pipeline (`harness/`)
@@ -42,8 +42,7 @@ harness.loaders     harness.features (opensmell.features)         harness.evalua
 | `report.py` | Emits `metrics.json` (with `generated_utc` provenance) and `analysis.md` per experiment. |
 
 The feature extractor comes from the [OpenSmell SDK](https://github.com/opensmell/opensmell)
-(`opensmell.features`); this suite is the independent, honest evaluation of what
-that framework does on real public data.
+(`opensmell.features`); this suite evaluates what that framework does on real public data.
 
 ## Install & run
 
@@ -94,5 +93,5 @@ see `data/DATASETS.md`.
 ## See also
 
 - [OpenSmell project](https://github.com/opensmell) — SDK, web, hardware, science layer
-- [OpenSmell Academy](https://opensmell.onrender.com) — the "U-suite" essay walks this suite and reads its summary table honestly
+- [OpenSmell Academy](https://opensmell.onrender.com) — the "U-suite" essay walks this suite and its summary table
 - `session-invariance` / `encoder` / `interoperability` — companion evaluation and representation-learning work

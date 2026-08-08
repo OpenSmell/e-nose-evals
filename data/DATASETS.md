@@ -9,13 +9,13 @@ indoor-air) are re-downloadable and never committed (~1.5 GB of binaries).
 
 | Dataset | Dir | Sensors | Source | License | Status |
 |---------|-----|---------|--------|---------|--------|
-| UCI gas sensor array exposed to turbulent gas mixtures | `turbulent-mixtures/` | 8 (TGS2600/02/10/11/12, TGS2620) | UCI id 309, Fonollosa 2014 | CC BY 4.0* | re-downloadable (180 recordings) |
-| UCI gas sensor array under dynamic gas mixtures | `dynamic-mixtures/` | 16 (TGS2600/02/10/20 ×4) | UCI id 322, Fonollosa 2015 | CC BY 4.0* | re-downloadable (2 × 12 h) |
-| Beef spoilage electronic nose | `beef-spoilage/` | 11 MQ | Harvard Dataverse DOI 10.7910/DVN/XNFVTS | CC0 1.0 | ✅ bundled (12 cut sheets) |
-| UCI gas sensor array drift | `uci-drift/` | 16 | UCI id 146 | CC BY 4.0* | ✅ bundled (10 batches) |
-| SmellNet offline_training | `smellnet-offline/` | 6 MOX | HF `DeweiFeng/smell-net` | research | ✅ bundled (250 recordings) |
-| OSMO taxonomy | `taxonomy/` | — | OSMO/Google | research | ✅ bundled |
-| UCI gas sensors for home activity monitoring | `indoor-air/` | 8 Figaro (TGS) + Temp/Humidity | UCI id 362, Huerta 2016 | CC BY 4.0* | re-downloadable (99 inductions) |
+| UCI gas sensor array exposed to turbulent gas mixtures | `turbulent-mixtures/` | 8 (TGS2600/02/10/11/12, TGS2620) | [UCI id 309](https://archive.ics.uci.edu/dataset/309/gas+sensor+array+exposed+to+turbulent+gas+mixtures) · Fonollosa 2014 | CC BY 4.0* | re-downloadable (180 recordings) |
+| UCI gas sensor array under dynamic gas mixtures | `dynamic-mixtures/` | 16 (TGS2600/02/10/20 ×4) | [UCI id 322](https://archive.ics.uci.edu/dataset/322/gas+sensor+array+under+dynamic+gas+mixtures) · Fonollosa 2015 | CC BY 4.0* | re-downloadable (2 × 12 h) |
+| Beef spoilage electronic nose | `beef-spoilage/` | 11 MQ | [Harvard Dataverse DOI 10.7910/DVN/XNFVTS](https://doi.org/10.7910/DVN/XNFVTS) | CC0 1.0 | ✅ bundled (12 cut sheets) |
+| UCI gas sensor array drift | `uci-drift/` | 16 | [UCI id 146](https://archive.ics.uci.edu/dataset/146/gas+sensor+array+drift+dataset+at+different+concentrations) | CC BY 4.0* | ✅ bundled (10 batches) |
+| SmellNet offline_training | `smellnet-offline/` | 6 MOX | [HF `DeweiFeng/smell-net`](https://huggingface.co/datasets/DeweiFeng/smell-net) | research | ✅ bundled (250 recordings) |
+| OSMO taxonomy | `taxonomy/` | — | OSMO / Google — Principal Odor Map taxonomy | research | ✅ bundled |
+| UCI gas sensors for home activity monitoring | `indoor-air/` | 8 Figaro (TGS) + Temp/Humidity | [UCI id 362](https://archive.ics.uci.edu/dataset/362/gas+sensors+for+home+activity+monitoring) · Huerta 2016 | CC BY 4.0* | re-downloadable (99 inductions) |
 
 \* UCI pages state "research purposes only; commercial use excluded" in the
 description even where the license badge reads CC BY 4.0. Treat as
