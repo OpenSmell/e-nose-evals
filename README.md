@@ -72,6 +72,16 @@ Re-downloadable, never committed (~1.5 GB of binaries): UCI turbulent mixtures
 (309), UCI dynamic mixtures (322), UCI-362 indoor air. Provenance, licensing,
 conversion formulas, and download pointers: `data/DATASETS.md`.
 
+Data citations:
+
+- SmellNet: Feng, D., Dai, W., Li, C., Pernigo, A., Wen, Y. & Liang, P. P.
+  "SmellNet: A Large-scale Dataset for Real-world Smell Recognition."
+  arXiv:2506.00239 (2025); ICLR 2026; <https://huggingface.co/datasets/DeweiFeng/smell-net>.
+- OSMO taxonomy: Osmo Labs, PBC. "The Osmo Scent Taxonomy," v1.1 (2025);
+  <https://github.com/osmoai/taxonomy>.
+- Beef spoilage: Wijaya et al., "Dataset for electronic nose from various beef
+  cuts," Harvard Dataverse 10.7910/DVN/XNFVTS (CC0 1.0).
+
 ## Honesty rules
 
 - No window leaks across the train/test boundary (grouped CV by recording /

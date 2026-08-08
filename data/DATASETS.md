@@ -14,7 +14,7 @@ indoor-air) are re-downloadable and never committed (~1.5 GB of binaries).
 | Beef spoilage electronic nose | `beef-spoilage/` | 11 MQ | [Harvard Dataverse DOI 10.7910/DVN/XNFVTS](https://doi.org/10.7910/DVN/XNFVTS) | CC0 1.0 | ✅ bundled (12 cut sheets) |
 | UCI gas sensor array drift | `uci-drift/` | 16 | [UCI id 146](https://archive.ics.uci.edu/dataset/146/gas+sensor+array+drift+dataset+at+different+concentrations) | CC BY 4.0* | ✅ bundled (10 batches) |
 | SmellNet offline_training | `smellnet-offline/` | 6 MOX | [HF `DeweiFeng/smell-net`](https://huggingface.co/datasets/DeweiFeng/smell-net) | research | ✅ bundled (250 recordings) |
-| OSMO taxonomy | `taxonomy/` | — | OSMO / Google — Principal Odor Map taxonomy | research | ✅ bundled |
+| OSMO taxonomy | `taxonomy/` | — | [osmoai/taxonomy](https://github.com/osmoai/taxonomy) — Osmo Labs, PBC, "The Osmo Scent Taxonomy," v1.1 (2025) | research | ✅ bundled |
 | UCI gas sensors for home activity monitoring | `indoor-air/` | 8 Figaro (TGS) + Temp/Humidity | [UCI id 362](https://archive.ics.uci.edu/dataset/362/gas+sensors+for+home+activity+monitoring) · Huerta 2016 | CC BY 4.0* | re-downloadable (99 inductions) |
 
 \* UCI pages state "research purposes only; commercial use excluded" in the
