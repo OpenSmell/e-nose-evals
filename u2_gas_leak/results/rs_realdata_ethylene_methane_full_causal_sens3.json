@@ -1,0 +1,819 @@
+{
+  "file": "/home/praisejamesx/Documents/Documents/Research/coglab/OpenSmell/e-nose-evals/data/dynamic-mixtures/ethylene_methane.txt",
+  "n_channels": 16,
+  "sensitivity": 3.0,
+  "causal_calibration": true,
+  "decimated_seconds": 417850,
+  "n_events": 98,
+  "detected_events": 95,
+  "detection_rate": 0.9693877551020408,
+  "median_latency_s": 16.4,
+  "p75_latency_s": 28.8,
+  "latencies_s": [
+    1.3,
+    5.6,
+    10.5,
+    11.9,
+    12.5,
+    12.7,
+    12.8,
+    12.9,
+    13.1,
+    13.2,
+    13.2,
+    13.4,
+    13.4,
+    13.5,
+    13.6,
+    13.7,
+    13.7,
+    13.8,
+    13.8,
+    13.9,
+    14.0,
+    14.2,
+    14.2,
+    14.3,
+    14.4,
+    14.4,
+    14.5,
+    14.6,
+    14.6,
+    14.7,
+    14.7,
+    14.8,
+    15.2,
+    15.2,
+    15.4,
+    15.5,
+    15.5,
+    15.5,
+    15.8,
+    15.9,
+    16.0,
+    16.0,
+    16.1,
+    16.2,
+    16.2,
+    16.3,
+    16.4,
+    16.4,
+    16.6,
+    16.7,
+    16.7,
+    16.8,
+    17.5,
+    17.5,
+    21.0,
+    23.8,
+    24.1,
+    24.1,
+    25.3,
+    25.4,
+    25.6,
+    25.6,
+    26.0,
+    26.1,
+    26.2,
+    26.3,
+    26.4,
+    26.9,
+    27.8,
+    28.1,
+    28.7,
+    28.8,
+    31.0,
+    31.2,
+    31.6,
+    32.0,
+    32.0,
+    32.2,
+    32.2,
+    32.4,
+    32.4,
+    32.5,
+    33.0,
+    33.5,
+    33.6,
+    33.8,
+    34.7,
+    38.7,
+    44.2,
+    46.4,
+    46.6,
+    48.8,
+    49.8,
+    50.3,
+    116.7
+  ],
+  "events": [
+    {
+      "start_s": 100.0,
+      "end_s": 299.6,
+      "scored": false,
+      "detected": false,
+      "latency_s": null
+    },
+    {
+      "start_s": 499.7,
+      "end_s": 599.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 26.3
+    },
+    {
+      "start_s": 699.7,
+      "end_s": 799.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 32.4
+    },
+    {
+      "start_s": 899.7,
+      "end_s": 999.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 46.4
+    },
+    {
+      "start_s": 1099.7,
+      "end_s": 1199.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.5
+    },
+    {
+      "start_s": 1299.7,
+      "end_s": 1399.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 12.5
+    },
+    {
+      "start_s": 1499.7,
+      "end_s": 1599.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 12.8
+    },
+    {
+      "start_s": 1799.7,
+      "end_s": 1899.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 31.6
+    },
+    {
+      "start_s": 1999.7,
+      "end_s": 2099.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 32.4
+    },
+    {
+      "start_s": 2199.7,
+      "end_s": 2299.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 46.6
+    },
+    {
+      "start_s": 2399.7,
+      "end_s": 2499.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.4
+    },
+    {
+      "start_s": 2599.7,
+      "end_s": 2699.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 12.7
+    },
+    {
+      "start_s": 2799.7,
+      "end_s": 2899.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 12.9
+    },
+    {
+      "start_s": 2999.6,
+      "end_s": 7579.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.2
+    },
+    {
+      "start_s": 7595.5,
+      "end_s": 8587.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.8
+    },
+    {
+      "start_s": 8801.5,
+      "end_s": 8991.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 28.8
+    },
+    {
+      "start_s": 9105.5,
+      "end_s": 9221.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 48.8
+    },
+    {
+      "start_s": 9308.5,
+      "end_s": 9483.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 25.4
+    },
+    {
+      "start_s": 9545.5,
+      "end_s": 9642.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.4
+    },
+    {
+      "start_s": 9941.5,
+      "end_s": 10039.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.2
+    },
+    {
+      "start_s": 10229.5,
+      "end_s": 10440.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.2
+    },
+    {
+      "start_s": 10531.5,
+      "end_s": 10628.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.7
+    },
+    {
+      "start_s": 10816.5,
+      "end_s": 10930.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.4
+    },
+    {
+      "start_s": 11043.5,
+      "end_s": 11385.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.1
+    },
+    {
+      "start_s": 11501.5,
+      "end_s": 12395.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.2
+    },
+    {
+      "start_s": 12421.5,
+      "end_s": 12817.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 44.2
+    },
+    {
+      "start_s": 12908.5,
+      "end_s": 13333.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 28.7
+    },
+    {
+      "start_s": 13533.5,
+      "end_s": 13633.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 26.2
+    },
+    {
+      "start_s": 13733.5,
+      "end_s": 13833.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 32.5
+    },
+    {
+      "start_s": 13933.5,
+      "end_s": 14033.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 50.3
+    },
+    {
+      "start_s": 14129.8,
+      "end_s": 14229.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.5
+    },
+    {
+      "start_s": 14329.8,
+      "end_s": 14429.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.6
+    },
+    {
+      "start_s": 14529.8,
+      "end_s": 14629.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.9
+    },
+    {
+      "start_s": 14829.8,
+      "end_s": 14929.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.2
+    },
+    {
+      "start_s": 15029.8,
+      "end_s": 15129.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 10.5
+    },
+    {
+      "start_s": 15229.8,
+      "end_s": 15329.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 49.8
+    },
+    {
+      "start_s": 15429.8,
+      "end_s": 15529.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.7
+    },
+    {
+      "start_s": 15629.8,
+      "end_s": 15729.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.8
+    },
+    {
+      "start_s": 15829.8,
+      "end_s": 15929.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.0
+    },
+    {
+      "start_s": 16136.8,
+      "end_s": 16337.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 1.3
+    },
+    {
+      "start_s": 16419.8,
+      "end_s": 16537.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.4
+    },
+    {
+      "start_s": 16656.8,
+      "end_s": 16776.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 13.7
+    },
+    {
+      "start_s": 16882.8,
+      "end_s": 17818.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.6
+    },
+    {
+      "start_s": 17837.8,
+      "end_s": 17936.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 34.7
+    },
+    {
+      "start_s": 18023.8,
+      "end_s": 18140.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 24.1
+    },
+    {
+      "start_s": 18629.8,
+      "end_s": 19795.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 26.9
+    },
+    {
+      "start_s": 19978.8,
+      "end_s": 20082.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.8
+    },
+    {
+      "start_s": 20394.8,
+      "end_s": 20480.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 15.5
+    },
+    {
+      "start_s": 20496.8,
+      "end_s": 20596.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 33.8
+    },
+    {
+      "start_s": 20813.8,
+      "end_s": 20916.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 33.6
+    },
+    {
+      "start_s": 21104.8,
+      "end_s": 21193.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 24.1
+    },
+    {
+      "start_s": 21353.8,
+      "end_s": 22388.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 15.8
+    },
+    {
+      "start_s": 22545.8,
+      "end_s": 23406.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 25.6
+    },
+    {
+      "start_s": 23619.6,
+      "end_s": 23718.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.6
+    },
+    {
+      "start_s": 23837.6,
+      "end_s": 23933.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.3
+    },
+    {
+      "start_s": 24044.6,
+      "end_s": 24146.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 14.7
+    },
+    {
+      "start_s": 24189.6,
+      "end_s": 26127.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 11.9
+    },
+    {
+      "start_s": 26327.6,
+      "end_s": 26427.5,
+      "scored": true,
+      "detected": true,
+      "latency_s": 26.1
+    },
+    {
+      "start_s": 26527.5,
+      "end_s": 26627.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 32.2
+    },
+    {
+      "start_s": 26727.5,
+      "end_s": 26827.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 116.7
+    },
+    {
+      "start_s": 26927.5,
+      "end_s": 27027.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.0
+    },
+    {
+      "start_s": 27127.5,
+      "end_s": 27227.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 15.2
+    },
+    {
+      "start_s": 27327.5,
+      "end_s": 27427.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 15.4
+    },
+    {
+      "start_s": 27627.5,
+      "end_s": 27727.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 31.2
+    },
+    {
+      "start_s": 27827.5,
+      "end_s": 27927.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 32.0
+    },
+    {
+      "start_s": 28027.5,
+      "end_s": 28127.4,
+      "scored": true,
+      "detected": false,
+      "latency_s": null
+    },
+    {
+      "start_s": 28227.5,
+      "end_s": 28327.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.2
+    },
+    {
+      "start_s": 28427.5,
+      "end_s": 28527.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 15.2
+    },
+    {
+      "start_s": 28627.5,
+      "end_s": 28727.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 15.5
+    },
+    {
+      "start_s": 28908.5,
+      "end_s": 29104.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.3
+    },
+    {
+      "start_s": 29213.5,
+      "end_s": 29325.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.0
+    },
+    {
+      "start_s": 29660.5,
+      "end_s": 30660.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.7
+    },
+    {
+      "start_s": 30961.5,
+      "end_s": 31061.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.1
+    },
+    {
+      "start_s": 31159.5,
+      "end_s": 31279.4,
+      "scored": true,
+      "detected": true,
+      "latency_s": 15.9
+    },
+    {
+      "start_s": 31397.5,
+      "end_s": 32361.3,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.4
+    },
+    {
+      "start_s": 32439.4,
+      "end_s": 32549.3,
+      "scored": true,
+      "detected": true,
+      "latency_s": 26.4
+    },
+    {
+      "start_s": 32632.4,
+      "end_s": 32828.3,
+      "scored": true,
+      "detected": true,
+      "latency_s": 25.6
+    },
+    {
+      "start_s": 33020.4,
+      "end_s": 33220.3,
+      "scored": true,
+      "detected": true,
+      "latency_s": 33.0
+    },
+    {
+      "start_s": 33326.4,
+      "end_s": 33416.1,
+      "scored": true,
+      "detected": true,
+      "latency_s": 38.7
+    },
+    {
+      "start_s": 33526.2,
+      "end_s": 33703.1,
+      "scored": true,
+      "detected": true,
+      "latency_s": 23.8
+    },
+    {
+      "start_s": 33989.2,
+      "end_s": 34163.1,
+      "scored": true,
+      "detected": true,
+      "latency_s": 26.0
+    },
+    {
+      "start_s": 34390.2,
+      "end_s": 35383.1,
+      "scored": true,
+      "detected": true,
+      "latency_s": 21.0
+    },
+    {
+      "start_s": 35686.2,
+      "end_s": 35790.1,
+      "scored": true,
+      "detected": true,
+      "latency_s": 27.8
+    },
+    {
+      "start_s": 36226.1,
+      "end_s": 38123.0,
+      "scored": true,
+      "detected": true,
+      "latency_s": 15.5
+    },
+    {
+      "start_s": 38148.1,
+      "end_s": 38238.0,
+      "scored": true,
+      "detected": true,
+      "latency_s": 33.5
+    },
+    {
+      "start_s": 38321.1,
+      "end_s": 38649.0,
+      "scored": true,
+      "detected": true,
+      "latency_s": 5.6
+    },
+    {
+      "start_s": 38976.9,
+      "end_s": 39070.8,
+      "scored": true,
+      "detected": true,
+      "latency_s": 28.1
+    },
+    {
+      "start_s": 39270.9,
+      "end_s": 39370.8,
+      "scored": true,
+      "detected": true,
+      "latency_s": 25.3
+    },
+    {
+      "start_s": 39470.9,
+      "end_s": 39570.8,
+      "scored": true,
+      "detected": true,
+      "latency_s": 32.2
+    },
+    {
+      "start_s": 39670.9,
+      "end_s": 39770.8,
+      "scored": true,
+      "detected": false,
+      "latency_s": null
+    },
+    {
+      "start_s": 39870.9,
+      "end_s": 39970.8,
+      "scored": true,
+      "detected": true,
+      "latency_s": 17.5
+    },
+    {
+      "start_s": 40070.9,
+      "end_s": 40170.8,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.4
+    },
+    {
+      "start_s": 40270.9,
+      "end_s": 40370.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.6
+    },
+    {
+      "start_s": 40570.8,
+      "end_s": 40670.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 31.0
+    },
+    {
+      "start_s": 40770.8,
+      "end_s": 40870.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 32.0
+    },
+    {
+      "start_s": 40970.8,
+      "end_s": 41070.7,
+      "scored": true,
+      "detected": false,
+      "latency_s": null
+    },
+    {
+      "start_s": 41170.8,
+      "end_s": 41270.7,
+      "scored": true,
+      "detected": true,
+      "latency_s": 17.5
+    },
+    {
+      "start_s": 41370.8,
+      "end_s": 41470.8,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.7
+    },
+    {
+      "start_s": 41570.8,
+      "end_s": 41670.8,
+      "scored": true,
+      "detected": true,
+      "latency_s": 16.8
+    }
+  ],
+  "clean_seconds": 35794,
+  "clean_alarms": 33,
+  "clean_fpr": 0.0009219422249539029,
+  "event_seconds": 278434,
+  "event_alarms": 38747,
+  "event_seconds_alarmed": 0.13916044735915872,
+  "recovery_excluded_seconds": 98822,
+  "typologies": {
+    "none": 2388,
+    "spike": 36573,
+    "step": 19
+  },
+  "calibration_start_s": 360,
+  "calibration_end_s": 480,
+  "runtime_s": 604.523125108
+}

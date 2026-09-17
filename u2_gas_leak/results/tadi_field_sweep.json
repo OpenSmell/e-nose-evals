@@ -1,0 +1,1775 @@
+{
+  "loggers": {
+    "Logger_A": {
+      "file": "/tmp/opencode/tadi/Logger_A.csv",
+      "configs": [
+        {
+          "sensitivity": 2.0,
+          "detected": 16,
+          "total": 24,
+          "rate": 0.6666666666666666,
+          "clean_sec": 48370,
+          "clean_alarms": 33,
+          "fpr": 0.0006822410585073393,
+          "fa_per_month": 1768.3688236510234,
+          "median_latency_s": 126.0,
+          "per_event": [
+            {
+              "release": 2,
+              "peak": 6.7925438074,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 5,
+              "peak": 52.775988201000004,
+              "detected": true,
+              "latency_s": 558.0
+            },
+            {
+              "release": 6,
+              "peak": 16.477519122,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 7,
+              "peak": 40.223427023,
+              "detected": true,
+              "latency_s": 108.0
+            },
+            {
+              "release": 8,
+              "peak": 40.126157217,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 9,
+              "peak": 36.494406509,
+              "detected": true,
+              "latency_s": 54.0
+            },
+            {
+              "release": 10,
+              "peak": 9.3944243675,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 11,
+              "peak": 7.3657354038,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 14,
+              "peak": 19.638829081,
+              "detected": true,
+              "latency_s": 2184.0
+            },
+            {
+              "release": 15,
+              "peak": 52.097414371000006,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 16,
+              "peak": 101.13858267,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 17,
+              "peak": 295.29746459,
+              "detected": true,
+              "latency_s": 126.0
+            },
+            {
+              "release": 18,
+              "peak": 20.313441745,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 19,
+              "peak": 6.4591906111,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 20,
+              "peak": 23.453883612,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 21,
+              "peak": 10.957109144,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 24,
+              "peak": 30.795252121999997,
+              "detected": true,
+              "latency_s": 324.0
+            },
+            {
+              "release": 25,
+              "peak": 94.03377464,
+              "detected": true,
+              "latency_s": 90.0
+            },
+            {
+              "release": 26,
+              "peak": 7.204176044,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 27,
+              "peak": 17.40387089,
+              "detected": true,
+              "latency_s": 828.0
+            },
+            {
+              "release": 28,
+              "peak": 40.3240625,
+              "detected": true,
+              "latency_s": 96.0
+            },
+            {
+              "release": 29,
+              "peak": 19.859409124000003,
+              "detected": true,
+              "latency_s": 402.0
+            },
+            {
+              "release": 30,
+              "peak": 121.50018793,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 32,
+              "peak": 100.82993582,
+              "detected": true,
+              "latency_s": 78.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 2.5,
+          "detected": 17,
+          "total": 24,
+          "rate": 0.7083333333333334,
+          "clean_sec": 48370,
+          "clean_alarms": 43,
+          "fpr": 0.000888980773206533,
+          "fa_per_month": 2304.238164151334,
+          "median_latency_s": 96.0,
+          "per_event": [
+            {
+              "release": 2,
+              "peak": 6.7925438074,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 5,
+              "peak": 52.775988201000004,
+              "detected": true,
+              "latency_s": 558.0
+            },
+            {
+              "release": 6,
+              "peak": 16.477519122,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 7,
+              "peak": 40.223427023,
+              "detected": true,
+              "latency_s": 108.0
+            },
+            {
+              "release": 8,
+              "peak": 40.126157217,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 9,
+              "peak": 36.494406509,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 10,
+              "peak": 9.3944243675,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 11,
+              "peak": 7.3657354038,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 14,
+              "peak": 19.638829081,
+              "detected": true,
+              "latency_s": 504.0
+            },
+            {
+              "release": 15,
+              "peak": 52.097414371000006,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 16,
+              "peak": 101.13858267,
+              "detected": true,
+              "latency_s": 84.0
+            },
+            {
+              "release": 17,
+              "peak": 295.29746459,
+              "detected": true,
+              "latency_s": 114.0
+            },
+            {
+              "release": 18,
+              "peak": 20.313441745,
+              "detected": true,
+              "latency_s": 72.0
+            },
+            {
+              "release": 19,
+              "peak": 6.4591906111,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 20,
+              "peak": 23.453883612,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 21,
+              "peak": 10.957109144,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 24,
+              "peak": 30.795252121999997,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 25,
+              "peak": 94.03377464,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 26,
+              "peak": 7.204176044,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 27,
+              "peak": 17.40387089,
+              "detected": true,
+              "latency_s": 828.0
+            },
+            {
+              "release": 28,
+              "peak": 40.3240625,
+              "detected": true,
+              "latency_s": 96.0
+            },
+            {
+              "release": 29,
+              "peak": 19.859409124000003,
+              "detected": true,
+              "latency_s": 396.0
+            },
+            {
+              "release": 30,
+              "peak": 121.50018793,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 32,
+              "peak": 100.82993582,
+              "detected": true,
+              "latency_s": 78.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 3.0,
+          "detected": 19,
+          "total": 24,
+          "rate": 0.7916666666666666,
+          "clean_sec": 48370,
+          "clean_alarms": 65,
+          "fpr": 0.0013438081455447591,
+          "fa_per_month": 3483.150713252016,
+          "median_latency_s": 78.0,
+          "per_event": [
+            {
+              "release": 2,
+              "peak": 6.7925438074,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 5,
+              "peak": 52.775988201000004,
+              "detected": true,
+              "latency_s": 558.0
+            },
+            {
+              "release": 6,
+              "peak": 16.477519122,
+              "detected": true,
+              "latency_s": 102.0
+            },
+            {
+              "release": 7,
+              "peak": 40.223427023,
+              "detected": true,
+              "latency_s": 108.0
+            },
+            {
+              "release": 8,
+              "peak": 40.126157217,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 9,
+              "peak": 36.494406509,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 10,
+              "peak": 9.3944243675,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 11,
+              "peak": 7.3657354038,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 14,
+              "peak": 19.638829081,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 15,
+              "peak": 52.097414371000006,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 16,
+              "peak": 101.13858267,
+              "detected": true,
+              "latency_s": 84.0
+            },
+            {
+              "release": 17,
+              "peak": 295.29746459,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 18,
+              "peak": 20.313441745,
+              "detected": true,
+              "latency_s": 72.0
+            },
+            {
+              "release": 19,
+              "peak": 6.4591906111,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 20,
+              "peak": 23.453883612,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 21,
+              "peak": 10.957109144,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 24,
+              "peak": 30.795252121999997,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 25,
+              "peak": 94.03377464,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 26,
+              "peak": 7.204176044,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 27,
+              "peak": 17.40387089,
+              "detected": true,
+              "latency_s": 828.0
+            },
+            {
+              "release": 28,
+              "peak": 40.3240625,
+              "detected": true,
+              "latency_s": 96.0
+            },
+            {
+              "release": 29,
+              "peak": 19.859409124000003,
+              "detected": true,
+              "latency_s": 396.0
+            },
+            {
+              "release": 30,
+              "peak": 121.50018793,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 32,
+              "peak": 100.82993582,
+              "detected": true,
+              "latency_s": 78.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 4.0,
+          "detected": 19,
+          "total": 24,
+          "rate": 0.7916666666666666,
+          "clean_sec": 48370,
+          "clean_alarms": 103,
+          "fpr": 0.0021294190614016954,
+          "fa_per_month": 5519.454207153194,
+          "median_latency_s": 54.0,
+          "per_event": [
+            {
+              "release": 2,
+              "peak": 6.7925438074,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 5,
+              "peak": 52.775988201000004,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 6,
+              "peak": 16.477519122,
+              "detected": true,
+              "latency_s": 102.0
+            },
+            {
+              "release": 7,
+              "peak": 40.223427023,
+              "detected": true,
+              "latency_s": 102.0
+            },
+            {
+              "release": 8,
+              "peak": 40.126157217,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 9,
+              "peak": 36.494406509,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 10,
+              "peak": 9.3944243675,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 11,
+              "peak": 7.3657354038,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 14,
+              "peak": 19.638829081,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 15,
+              "peak": 52.097414371000006,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 16,
+              "peak": 101.13858267,
+              "detected": true,
+              "latency_s": 84.0
+            },
+            {
+              "release": 17,
+              "peak": 295.29746459,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 18,
+              "peak": 20.313441745,
+              "detected": true,
+              "latency_s": 66.0
+            },
+            {
+              "release": 19,
+              "peak": 6.4591906111,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 20,
+              "peak": 23.453883612,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 21,
+              "peak": 10.957109144,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 24,
+              "peak": 30.795252121999997,
+              "detected": true,
+              "latency_s": 84.0
+            },
+            {
+              "release": 25,
+              "peak": 94.03377464,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 26,
+              "peak": 7.204176044,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 27,
+              "peak": 17.40387089,
+              "detected": true,
+              "latency_s": 816.0
+            },
+            {
+              "release": 28,
+              "peak": 40.3240625,
+              "detected": true,
+              "latency_s": 96.0
+            },
+            {
+              "release": 29,
+              "peak": 19.859409124000003,
+              "detected": true,
+              "latency_s": 396.0
+            },
+            {
+              "release": 30,
+              "peak": 121.50018793,
+              "detected": true,
+              "latency_s": 48.0
+            },
+            {
+              "release": 32,
+              "peak": 100.82993582,
+              "detected": true,
+              "latency_s": 54.0
+            }
+          ]
+        }
+      ]
+    },
+    "Logger_C": {
+      "file": "/tmp/opencode/tadi/Logger_C.csv",
+      "configs": [
+        {
+          "sensitivity": 2.0,
+          "detected": 14,
+          "total": 20,
+          "rate": 0.7,
+          "clean_sec": 40594,
+          "clean_alarms": 13,
+          "fpr": 0.00032024437108932357,
+          "fa_per_month": 830.0734098635266,
+          "median_latency_s": 30.0,
+          "per_event": [
+            {
+              "release": 9,
+              "peak": 17.010505884,
+              "detected": true,
+              "latency_s": 1134.0
+            },
+            {
+              "release": 10,
+              "peak": 4.4318337188,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 14,
+              "peak": 16.887087505,
+              "detected": true,
+              "latency_s": 12.0
+            },
+            {
+              "release": 15,
+              "peak": 27.636100326999998,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 17,
+              "peak": 315.68854042,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 18,
+              "peak": 8.8310274194,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 19,
+              "peak": 124.60511754,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 20,
+              "peak": 30.915915607,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 21,
+              "peak": 6.7855527775999995,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 22,
+              "peak": 42.375883971,
+              "detected": true,
+              "latency_s": 240.0
+            },
+            {
+              "release": 24,
+              "peak": 34.781882245,
+              "detected": true,
+              "latency_s": 564.0
+            },
+            {
+              "release": 25,
+              "peak": 66.99758905600001,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 26,
+              "peak": 11.166905986,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 27,
+              "peak": 12.604794937000001,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 28,
+              "peak": 33.376864397,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 29,
+              "peak": 7.1328985633,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 30,
+              "peak": 30.644611896,
+              "detected": true,
+              "latency_s": 24.0
+            },
+            {
+              "release": 31,
+              "peak": 64.129163789,
+              "detected": true,
+              "latency_s": 30.0
+            },
+            {
+              "release": 32,
+              "peak": 66.290964185,
+              "detected": true,
+              "latency_s": 300.0
+            },
+            {
+              "release": 33,
+              "peak": 56.372557696,
+              "detected": true,
+              "latency_s": 96.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 2.5,
+          "detected": 15,
+          "total": 20,
+          "rate": 0.75,
+          "clean_sec": 40594,
+          "clean_alarms": 16,
+          "fpr": 0.00039414691826378283,
+          "fa_per_month": 1021.6288121397251,
+          "median_latency_s": 24.0,
+          "per_event": [
+            {
+              "release": 9,
+              "peak": 17.010505884,
+              "detected": true,
+              "latency_s": 24.0
+            },
+            {
+              "release": 10,
+              "peak": 4.4318337188,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 14,
+              "peak": 16.887087505,
+              "detected": true,
+              "latency_s": 12.0
+            },
+            {
+              "release": 15,
+              "peak": 27.636100326999998,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 17,
+              "peak": 315.68854042,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 18,
+              "peak": 8.8310274194,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 19,
+              "peak": 124.60511754,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 20,
+              "peak": 30.915915607,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 21,
+              "peak": 6.7855527775999995,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 22,
+              "peak": 42.375883971,
+              "detected": true,
+              "latency_s": 240.0
+            },
+            {
+              "release": 24,
+              "peak": 34.781882245,
+              "detected": true,
+              "latency_s": 564.0
+            },
+            {
+              "release": 25,
+              "peak": 66.99758905600001,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 26,
+              "peak": 11.166905986,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 27,
+              "peak": 12.604794937000001,
+              "detected": true,
+              "latency_s": 288.0
+            },
+            {
+              "release": 28,
+              "peak": 33.376864397,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 29,
+              "peak": 7.1328985633,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 30,
+              "peak": 30.644611896,
+              "detected": true,
+              "latency_s": 24.0
+            },
+            {
+              "release": 31,
+              "peak": 64.129163789,
+              "detected": true,
+              "latency_s": 30.0
+            },
+            {
+              "release": 32,
+              "peak": 66.290964185,
+              "detected": true,
+              "latency_s": 246.0
+            },
+            {
+              "release": 33,
+              "peak": 56.372557696,
+              "detected": true,
+              "latency_s": 96.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 3.0,
+          "detected": 16,
+          "total": 20,
+          "rate": 0.8,
+          "clean_sec": 40594,
+          "clean_alarms": 23,
+          "fpr": 0.0005665861950041878,
+          "fa_per_month": 1468.5914174508548,
+          "median_latency_s": 18.0,
+          "per_event": [
+            {
+              "release": 9,
+              "peak": 17.010505884,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 10,
+              "peak": 4.4318337188,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 14,
+              "peak": 16.887087505,
+              "detected": true,
+              "latency_s": 12.0
+            },
+            {
+              "release": 15,
+              "peak": 27.636100326999998,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 17,
+              "peak": 315.68854042,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 18,
+              "peak": 8.8310274194,
+              "detected": true,
+              "latency_s": 558.0
+            },
+            {
+              "release": 19,
+              "peak": 124.60511754,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 20,
+              "peak": 30.915915607,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 21,
+              "peak": 6.7855527775999995,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 22,
+              "peak": 42.375883971,
+              "detected": true,
+              "latency_s": 240.0
+            },
+            {
+              "release": 24,
+              "peak": 34.781882245,
+              "detected": true,
+              "latency_s": 552.0
+            },
+            {
+              "release": 25,
+              "peak": 66.99758905600001,
+              "detected": true,
+              "latency_s": 12.0
+            },
+            {
+              "release": 26,
+              "peak": 11.166905986,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 27,
+              "peak": 12.604794937000001,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 28,
+              "peak": 33.376864397,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 29,
+              "peak": 7.1328985633,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 30,
+              "peak": 30.644611896,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 31,
+              "peak": 64.129163789,
+              "detected": true,
+              "latency_s": 30.0
+            },
+            {
+              "release": 32,
+              "peak": 66.290964185,
+              "detected": true,
+              "latency_s": 246.0
+            },
+            {
+              "release": 33,
+              "peak": 56.372557696,
+              "detected": true,
+              "latency_s": 96.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 4.0,
+          "detected": 16,
+          "total": 20,
+          "rate": 0.8,
+          "clean_sec": 40594,
+          "clean_alarms": 43,
+          "fpr": 0.0010592698428339164,
+          "fa_per_month": 2745.627432625511,
+          "median_latency_s": 6.0,
+          "per_event": [
+            {
+              "release": 9,
+              "peak": 17.010505884,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 10,
+              "peak": 4.4318337188,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 14,
+              "peak": 16.887087505,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 15,
+              "peak": 27.636100326999998,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 17,
+              "peak": 315.68854042,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 18,
+              "peak": 8.8310274194,
+              "detected": true,
+              "latency_s": 558.0
+            },
+            {
+              "release": 19,
+              "peak": 124.60511754,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 20,
+              "peak": 30.915915607,
+              "detected": true,
+              "latency_s": 174.0
+            },
+            {
+              "release": 21,
+              "peak": 6.7855527775999995,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 22,
+              "peak": 42.375883971,
+              "detected": true,
+              "latency_s": 240.0
+            },
+            {
+              "release": 24,
+              "peak": 34.781882245,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 25,
+              "peak": 66.99758905600001,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 26,
+              "peak": 11.166905986,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 27,
+              "peak": 12.604794937000001,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 28,
+              "peak": 33.376864397,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 29,
+              "peak": 7.1328985633,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 30,
+              "peak": 30.644611896,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 31,
+              "peak": 64.129163789,
+              "detected": true,
+              "latency_s": 30.0
+            },
+            {
+              "release": 32,
+              "peak": 66.290964185,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 33,
+              "peak": 56.372557696,
+              "detected": true,
+              "latency_s": 12.0
+            }
+          ]
+        }
+      ]
+    },
+    "Logger_D": {
+      "file": "/tmp/opencode/tadi/Logger_D.csv",
+      "configs": []
+    },
+    "Logger_E": {
+      "file": "/tmp/opencode/tadi/Logger_E.csv",
+      "configs": []
+    },
+    "Logger_F": {
+      "file": "/tmp/opencode/tadi/Logger_F.csv",
+      "configs": []
+    },
+    "Logger_H": {
+      "file": "/tmp/opencode/tadi/Logger_H.csv",
+      "configs": [
+        {
+          "sensitivity": 2.0,
+          "detected": 18,
+          "total": 19,
+          "rate": 0.9473684210526315,
+          "clean_sec": 50092,
+          "clean_alarms": 11,
+          "fpr": 0.0002195959434640262,
+          "fa_per_month": 569.1926854587559,
+          "median_latency_s": 6.0,
+          "per_event": [
+            {
+              "release": 1,
+              "peak": 62.296150000000004,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 2,
+              "peak": 16.89835,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 3,
+              "peak": 14.36065,
+              "detected": true,
+              "latency_s": 1476.0
+            },
+            {
+              "release": 4,
+              "peak": 132.6255,
+              "detected": true,
+              "latency_s": 636.0
+            },
+            {
+              "release": 13,
+              "peak": 27.6188,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 14,
+              "peak": 24.41305,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 18,
+              "peak": 21.09785,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 19,
+              "peak": 63.60039999999999,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 20,
+              "peak": 38.264700000000005,
+              "detected": true,
+              "latency_s": 660.0
+            },
+            {
+              "release": 21,
+              "peak": 11.0354,
+              "detected": false,
+              "latency_s": null
+            },
+            {
+              "release": 23,
+              "peak": 221.226,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 24,
+              "peak": 29.572,
+              "detected": true,
+              "latency_s": 12.0
+            },
+            {
+              "release": 25,
+              "peak": 154.89550000000003,
+              "detected": true,
+              "latency_s": 192.0
+            },
+            {
+              "release": 26,
+              "peak": 24.73165,
+              "detected": true,
+              "latency_s": 2214.0
+            },
+            {
+              "release": 28,
+              "peak": 123.0215,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 29,
+              "peak": 49.10235,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 30,
+              "peak": 62.131,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 32,
+              "peak": 61.43055,
+              "detected": true,
+              "latency_s": 72.0
+            },
+            {
+              "release": 33,
+              "peak": 55.607150000000004,
+              "detected": true,
+              "latency_s": 6.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 2.5,
+          "detected": 19,
+          "total": 19,
+          "rate": 1.0,
+          "clean_sec": 50092,
+          "clean_alarms": 11,
+          "fpr": 0.0002195959434640262,
+          "fa_per_month": 569.1926854587559,
+          "median_latency_s": 6.0,
+          "per_event": [
+            {
+              "release": 1,
+              "peak": 62.296150000000004,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 2,
+              "peak": 16.89835,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 3,
+              "peak": 14.36065,
+              "detected": true,
+              "latency_s": 576.0
+            },
+            {
+              "release": 4,
+              "peak": 132.6255,
+              "detected": true,
+              "latency_s": 636.0
+            },
+            {
+              "release": 13,
+              "peak": 27.6188,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 14,
+              "peak": 24.41305,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 18,
+              "peak": 21.09785,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 19,
+              "peak": 63.60039999999999,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 20,
+              "peak": 38.264700000000005,
+              "detected": true,
+              "latency_s": 660.0
+            },
+            {
+              "release": 21,
+              "peak": 11.0354,
+              "detected": true,
+              "latency_s": 66.0
+            },
+            {
+              "release": 23,
+              "peak": 221.226,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 24,
+              "peak": 29.572,
+              "detected": true,
+              "latency_s": 12.0
+            },
+            {
+              "release": 25,
+              "peak": 154.89550000000003,
+              "detected": true,
+              "latency_s": 192.0
+            },
+            {
+              "release": 26,
+              "peak": 24.73165,
+              "detected": true,
+              "latency_s": 1588.0
+            },
+            {
+              "release": 28,
+              "peak": 123.0215,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 29,
+              "peak": 49.10235,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 30,
+              "peak": 62.131,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 32,
+              "peak": 61.43055,
+              "detected": true,
+              "latency_s": 66.0
+            },
+            {
+              "release": 33,
+              "peak": 55.607150000000004,
+              "detected": true,
+              "latency_s": 6.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 3.0,
+          "detected": 19,
+          "total": 19,
+          "rate": 1.0,
+          "clean_sec": 50092,
+          "clean_alarms": 15,
+          "fpr": 0.0002994490138145812,
+          "fa_per_month": 776.1718438073945,
+          "median_latency_s": 6.0,
+          "per_event": [
+            {
+              "release": 1,
+              "peak": 62.296150000000004,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 2,
+              "peak": 16.89835,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 3,
+              "peak": 14.36065,
+              "detected": true,
+              "latency_s": 576.0
+            },
+            {
+              "release": 4,
+              "peak": 132.6255,
+              "detected": true,
+              "latency_s": 636.0
+            },
+            {
+              "release": 13,
+              "peak": 27.6188,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 14,
+              "peak": 24.41305,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 18,
+              "peak": 21.09785,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 19,
+              "peak": 63.60039999999999,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 20,
+              "peak": 38.264700000000005,
+              "detected": true,
+              "latency_s": 660.0
+            },
+            {
+              "release": 21,
+              "peak": 11.0354,
+              "detected": true,
+              "latency_s": 66.0
+            },
+            {
+              "release": 23,
+              "peak": 221.226,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 24,
+              "peak": 29.572,
+              "detected": true,
+              "latency_s": 12.0
+            },
+            {
+              "release": 25,
+              "peak": 154.89550000000003,
+              "detected": true,
+              "latency_s": 192.0
+            },
+            {
+              "release": 26,
+              "peak": 24.73165,
+              "detected": true,
+              "latency_s": 1588.0
+            },
+            {
+              "release": 28,
+              "peak": 123.0215,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 29,
+              "peak": 49.10235,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 30,
+              "peak": 62.131,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 32,
+              "peak": 61.43055,
+              "detected": true,
+              "latency_s": 66.0
+            },
+            {
+              "release": 33,
+              "peak": 55.607150000000004,
+              "detected": true,
+              "latency_s": 0.0
+            }
+          ]
+        },
+        {
+          "sensitivity": 4.0,
+          "detected": 19,
+          "total": 19,
+          "rate": 1.0,
+          "clean_sec": 50092,
+          "clean_alarms": 20,
+          "fpr": 0.0003992653517527749,
+          "fa_per_month": 1034.8957917431926,
+          "median_latency_s": 6.0,
+          "per_event": [
+            {
+              "release": 1,
+              "peak": 62.296150000000004,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 2,
+              "peak": 16.89835,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 3,
+              "peak": 14.36065,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 4,
+              "peak": 132.6255,
+              "detected": true,
+              "latency_s": 636.0
+            },
+            {
+              "release": 13,
+              "peak": 27.6188,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 14,
+              "peak": 24.41305,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 18,
+              "peak": 21.09785,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 19,
+              "peak": 63.60039999999999,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 20,
+              "peak": 38.264700000000005,
+              "detected": true,
+              "latency_s": 660.0
+            },
+            {
+              "release": 21,
+              "peak": 11.0354,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 23,
+              "peak": 221.226,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 24,
+              "peak": 29.572,
+              "detected": true,
+              "latency_s": 12.0
+            },
+            {
+              "release": 25,
+              "peak": 154.89550000000003,
+              "detected": true,
+              "latency_s": 192.0
+            },
+            {
+              "release": 26,
+              "peak": 24.73165,
+              "detected": true,
+              "latency_s": 1588.0
+            },
+            {
+              "release": 28,
+              "peak": 123.0215,
+              "detected": true,
+              "latency_s": 0.0
+            },
+            {
+              "release": 29,
+              "peak": 49.10235,
+              "detected": true,
+              "latency_s": 6.0
+            },
+            {
+              "release": 30,
+              "peak": 62.131,
+              "detected": true,
+              "latency_s": 18.0
+            },
+            {
+              "release": 32,
+              "peak": 61.43055,
+              "detected": true,
+              "latency_s": 66.0
+            },
+            {
+              "release": 33,
+              "peak": 55.607150000000004,
+              "detected": true,
+              "latency_s": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "summary": [
+    {
+      "sensitivity": 2.0,
+      "total_detected": 48,
+      "total_releases": 63,
+      "rate": 0.7619047619047619,
+      "total_clean_s": 139056,
+      "total_clean_a": 57,
+      "fpr": 0.0004099068001380739,
+      "fa_per_month": 1062.4784259578876,
+      "median_latencies": [
+        6.0,
+        30.0,
+        126.0
+      ]
+    },
+    {
+      "sensitivity": 2.5,
+      "total_detected": 51,
+      "total_releases": 63,
+      "rate": 0.8095238095238095,
+      "total_clean_s": 139056,
+      "total_clean_a": 70,
+      "fpr": 0.0005033943159590381,
+      "fa_per_month": 1304.7980669658268,
+      "median_latencies": [
+        6.0,
+        24.0,
+        96.0
+      ]
+    },
+    {
+      "sensitivity": 3.0,
+      "total_detected": 54,
+      "total_releases": 63,
+      "rate": 0.8571428571428571,
+      "total_clean_s": 139056,
+      "total_clean_a": 103,
+      "fpr": 0.0007407087791968703,
+      "fa_per_month": 1919.9171556782878,
+      "median_latencies": [
+        6.0,
+        18.0,
+        78.0
+      ]
+    },
+    {
+      "sensitivity": 4.0,
+      "total_detected": 54,
+      "total_releases": 63,
+      "rate": 0.8571428571428571,
+      "total_clean_s": 139056,
+      "total_clean_a": 166,
+      "fpr": 0.0011937636635600045,
+      "fa_per_month": 3094.2354159475317,
+      "median_latencies": [
+        6.0,
+        6.0,
+        54.0
+      ]
+    }
+  ],
+  "skipped_loggers": [
+    {
+      "name": "Logger_D",
+      "reason": "no calibration window found (<30 pre-event samples in first 2542 rows); skipping"
+    },
+    {
+      "name": "Logger_E",
+      "reason": "no calibration window found (<30 pre-event samples in first 7126 rows); skipping"
+    },
+    {
+      "name": "Logger_F",
+      "reason": "no calibration window found (<30 pre-event samples in first 7110 rows); skipping"
+    }
+  ]
+}

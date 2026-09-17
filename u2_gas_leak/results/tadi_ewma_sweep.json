@@ -1,0 +1,435 @@
+{
+  "loggers": {
+    "Logger_A": {
+      "file": "/tmp/opencode/tadi/Logger_A.csv",
+      "configs": [
+        {
+          "alpha": 0.02,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 13,
+          "total": 24,
+          "rate": 0.5416666666666666,
+          "clean_sec": 48370,
+          "clean_alarms": 11,
+          "fpr": 0.00022741368616911308,
+          "fa_per_month": 589.456274550341
+        },
+        {
+          "alpha": 0.02,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 7,
+          "total": 24,
+          "rate": 0.2916666666666667,
+          "clean_sec": 48370,
+          "clean_alarms": 6,
+          "fpr": 0.00012404382881951622,
+          "fa_per_month": 321.5216043001861
+        },
+        {
+          "alpha": 0.02,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 7,
+          "total": 24,
+          "rate": 0.2916666666666667,
+          "clean_sec": 48370,
+          "clean_alarms": 2,
+          "fpr": 4.134794293983874e-05,
+          "fa_per_month": 107.17386810006201
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 14,
+          "total": 24,
+          "rate": 0.5833333333333334,
+          "clean_sec": 48370,
+          "clean_alarms": 17,
+          "fpr": 0.00035145751498862933,
+          "fa_per_month": 910.9778788505272
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 12,
+          "total": 24,
+          "rate": 0.5,
+          "clean_sec": 48370,
+          "clean_alarms": 7,
+          "fpr": 0.0001447178002894356,
+          "fa_per_month": 375.10853835021703
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 7,
+          "total": 24,
+          "rate": 0.2916666666666667,
+          "clean_sec": 48370,
+          "clean_alarms": 3,
+          "fpr": 6.202191440975811e-05,
+          "fa_per_month": 160.76080215009304
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 16,
+          "total": 24,
+          "rate": 0.6666666666666666,
+          "clean_sec": 48370,
+          "clean_alarms": 16,
+          "fpr": 0.00033078354351870993,
+          "fa_per_month": 857.3909448004961
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 12,
+          "total": 24,
+          "rate": 0.5,
+          "clean_sec": 48370,
+          "clean_alarms": 9,
+          "fpr": 0.00018606574322927434,
+          "fa_per_month": 482.28240645027904
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 9,
+          "total": 24,
+          "rate": 0.375,
+          "clean_sec": 48370,
+          "clean_alarms": 7,
+          "fpr": 0.0001447178002894356,
+          "fa_per_month": 375.10853835021703
+        }
+      ]
+    },
+    "Logger_C": {
+      "file": "/tmp/opencode/tadi/Logger_C.csv",
+      "configs": [
+        {
+          "alpha": 0.02,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 14,
+          "total": 20,
+          "rate": 0.7,
+          "clean_sec": 40594,
+          "clean_alarms": 6,
+          "fpr": 0.00014780509434891856,
+          "fa_per_month": 383.1108045523969
+        },
+        {
+          "alpha": 0.02,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 9,
+          "total": 20,
+          "rate": 0.45,
+          "clean_sec": 40594,
+          "clean_alarms": 3,
+          "fpr": 7.390254717445928e-05,
+          "fa_per_month": 191.55540227619846
+        },
+        {
+          "alpha": 0.02,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 7,
+          "total": 20,
+          "rate": 0.35,
+          "clean_sec": 40594,
+          "clean_alarms": 1,
+          "fpr": 2.4634182391486427e-05,
+          "fa_per_month": 63.85180075873282
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 16,
+          "total": 20,
+          "rate": 0.8,
+          "clean_sec": 40594,
+          "clean_alarms": 11,
+          "fpr": 0.0002709760063063507,
+          "fa_per_month": 702.3698083460611
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 14,
+          "total": 20,
+          "rate": 0.7,
+          "clean_sec": 40594,
+          "clean_alarms": 6,
+          "fpr": 0.00014780509434891856,
+          "fa_per_month": 383.1108045523969
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 11,
+          "total": 20,
+          "rate": 0.55,
+          "clean_sec": 40594,
+          "clean_alarms": 3,
+          "fpr": 7.390254717445928e-05,
+          "fa_per_month": 191.55540227619846
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 17,
+          "total": 20,
+          "rate": 0.85,
+          "clean_sec": 40594,
+          "clean_alarms": 19,
+          "fpr": 0.0004680494654382421,
+          "fa_per_month": 1213.1842144159236
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 17,
+          "total": 20,
+          "rate": 0.85,
+          "clean_sec": 40594,
+          "clean_alarms": 11,
+          "fpr": 0.0002709760063063507,
+          "fa_per_month": 702.3698083460611
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 13,
+          "total": 20,
+          "rate": 0.65,
+          "clean_sec": 40594,
+          "clean_alarms": 7,
+          "fpr": 0.00017243927674040499,
+          "fa_per_month": 446.9626053111297
+        }
+      ]
+    },
+    "Logger_H": {
+      "file": "/tmp/opencode/tadi/Logger_H.csv",
+      "configs": [
+        {
+          "alpha": 0.02,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 17,
+          "total": 19,
+          "rate": 0.8947368421052632,
+          "clean_sec": 50092,
+          "clean_alarms": 9,
+          "fpr": 0.0001796694082887487,
+          "fa_per_month": 465.70310628443667
+        },
+        {
+          "alpha": 0.02,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 14,
+          "total": 19,
+          "rate": 0.7368421052631579,
+          "clean_sec": 50092,
+          "clean_alarms": 6,
+          "fpr": 0.00011977960552583247,
+          "fa_per_month": 310.4687375229578
+        },
+        {
+          "alpha": 0.02,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 12,
+          "total": 19,
+          "rate": 0.631578947368421,
+          "clean_sec": 50092,
+          "clean_alarms": 3,
+          "fpr": 5.9889802762916236e-05,
+          "fa_per_month": 155.2343687614789
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 18,
+          "total": 19,
+          "rate": 0.9473684210526315,
+          "clean_sec": 50092,
+          "clean_alarms": 10,
+          "fpr": 0.00019963267587638745,
+          "fa_per_month": 517.4478958715963
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 17,
+          "total": 19,
+          "rate": 0.8947368421052632,
+          "clean_sec": 50092,
+          "clean_alarms": 3,
+          "fpr": 5.9889802762916236e-05,
+          "fa_per_month": 155.2343687614789
+        },
+        {
+          "alpha": 0.05,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 15,
+          "total": 19,
+          "rate": 0.7894736842105263,
+          "clean_sec": 50092,
+          "clean_alarms": 1,
+          "fpr": 1.9963267587638745e-05,
+          "fa_per_month": 51.74478958715962
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 4,
+          "min_votes": 2,
+          "detected": 19,
+          "total": 19,
+          "rate": 1.0,
+          "clean_sec": 50092,
+          "clean_alarms": 7,
+          "fpr": 0.00013974287311347122,
+          "fa_per_month": 362.2135271101174
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 5,
+          "min_votes": 2,
+          "detected": 18,
+          "total": 19,
+          "rate": 0.9473684210526315,
+          "clean_sec": 50092,
+          "clean_alarms": 5,
+          "fpr": 9.981633793819373e-05,
+          "fa_per_month": 258.72394793579815
+        },
+        {
+          "alpha": 0.1,
+          "thr_sigma": 6,
+          "min_votes": 2,
+          "detected": 16,
+          "total": 19,
+          "rate": 0.8421052631578947,
+          "clean_sec": 50092,
+          "clean_alarms": 3,
+          "fpr": 5.9889802762916236e-05,
+          "fa_per_month": 155.2343687614789
+        }
+      ]
+    }
+  },
+  "summary": [
+    {
+      "alpha": 0.02,
+      "thr": 4,
+      "mv": 2,
+      "det": 44,
+      "total": 63,
+      "rate": 0.6984126984126984,
+      "fpr": 0.00018697503164192842,
+      "fa_month": 484.6392820158785
+    },
+    {
+      "alpha": 0.02,
+      "thr": 5,
+      "mv": 2,
+      "det": 30,
+      "total": 63,
+      "rate": 0.47619047619047616,
+      "fpr": 0.00010787021056265102,
+      "fa_month": 279.5995857783915
+    },
+    {
+      "alpha": 0.02,
+      "thr": 6,
+      "mv": 2,
+      "det": 26,
+      "total": 63,
+      "rate": 0.4126984126984127,
+      "fpr": 4.3148084225060405e-05,
+      "fa_month": 111.83983431135657
+    },
+    {
+      "alpha": 0.05,
+      "thr": 4,
+      "mv": 2,
+      "det": 48,
+      "total": 63,
+      "rate": 0.7619047619047619,
+      "fpr": 0.00027327120009204927,
+      "fa_month": 708.3189506385917
+    },
+    {
+      "alpha": 0.05,
+      "thr": 5,
+      "mv": 2,
+      "det": 43,
+      "total": 63,
+      "rate": 0.6825396825396826,
+      "fpr": 0.00011506155793349442,
+      "fa_month": 298.2395581636176
+    },
+    {
+      "alpha": 0.05,
+      "thr": 6,
+      "mv": 2,
+      "det": 33,
+      "total": 63,
+      "rate": 0.5238095238095238,
+      "fpr": 5.0339431595903805e-05,
+      "fa_month": 130.47980669658267
+    },
+    {
+      "alpha": 0.1,
+      "thr": 4,
+      "mv": 2,
+      "det": 52,
+      "total": 63,
+      "rate": 0.8253968253968254,
+      "fpr": 0.00030203658957542287,
+      "fa_month": 782.878840179496
+    },
+    {
+      "alpha": 0.1,
+      "thr": 5,
+      "mv": 2,
+      "det": 47,
+      "total": 63,
+      "rate": 0.746031746031746,
+      "fpr": 0.00017978368427108504,
+      "fa_month": 465.99930963065236
+    },
+    {
+      "alpha": 0.1,
+      "thr": 6,
+      "mv": 2,
+      "det": 38,
+      "total": 63,
+      "rate": 0.6031746031746031,
+      "fpr": 0.0001222529053043378,
+      "fa_month": 316.8795305488436
+    }
+  ]
+}
