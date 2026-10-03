@@ -102,3 +102,32 @@ description even where the license badge reads CC BY 4.0. Treat as
   `AlejandroSantorum/Gas_sensors_home_activity_monitoring`
   (`datasets/raw/HT_Sensor_UCIsubmission.zip`). Source zip kept in this dir
   for provenance (sha256 `7c143b9f4402a8205ebe8072c2ce0967c25741f1865e23d650e981053294f395`).
+
+## SmellNet offline (HF `DeweiFeng/smell-net`)
+
+- 50 substances × 5 repeats = 250 CSVs, one per recording, named
+  `<substance>.<content-hash>.csv`. Header is identical across all 250 files:
+  `NO2, C2H5OH, VOC, CO, Alcohol, LPG, Benzene, Temperature, Pressure,
+  Humidity, Gas_Resistance, Altitude`.
+- **No timestamp column and no manifest.** Row count per file is 517–808
+  (median 600, sd 40.8) — a +35%/−14% spread, and 0 of 50 substances have all
+  five repeats at equal length. Duration is therefore uncontrolled and the
+  timebase is undocumented.
+- **60% of recordings are still rising at the final row** (median `VOC` maximum
+  at 97% of the file). There is generally no steady-state plateau, and recovery
+  is not computable — nothing follows the peak.
+- **Onset position is not recoverable uniformly.** Locating the first departure
+  from the initial plateau: detected in 215/250, with onset ranging from 4% to
+  97% of the file (median 22%, p90 64%), and 35 files never departing at all.
+  A spike of 62 files has onset within the first 10% — i.e. no flat baseline
+  exists there.
+- Consequence: substance-identity discrimination on transient response shape is
+  sound, and the SmellNet-Base classification result stands. Claims about **time
+  to stabilization, baseline placement, rise kinetics, or recovery are not
+  supportable** from these files, and features correlated with substance may be
+  partly correlated with undocumented onset position.
+- Acquisition-timing questions are with the authors; see
+  `docs/dewei-smellnet-acquisition-query.md` and
+  `docs/smellnet-offline-audit.md` in the OpenSmell root.
+- Contrast worth noting: UCI 362 above ships `t0` with `time=0` at stimulus
+  onset. That is the standard these files would need to meet.
