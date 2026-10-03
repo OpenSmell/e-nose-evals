@@ -4,7 +4,11 @@ __pycache__/
 .vscode/
 
 # Large re-downloadable corpora — provenance + fetch instructions in
-# data/DATASETS.md (never commit ~1.5 GB of binaries).
-data/turbulent-mixtures/
-data/dynamic-mixtures/
-data/indoor-air/
+# data/DATASETS.md (never commit ~1.5 GB of binaries). Provenance and
+# verification notes travel with each corpus as markdown; only the bulk data
+# is excluded.
+data/turbulent-mixtures/*
+data/dynamic-mixtures/*
+data/indoor-air/*
+!data/*/PROVENANCE.md
+!data/*/README.md

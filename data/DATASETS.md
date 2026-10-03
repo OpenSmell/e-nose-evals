@@ -50,6 +50,14 @@ description even where the license badge reads CC BY 4.0. Treat as
   detection and concentration regression.
 - Zip (369 MB) downloaded and verified via a retrying background loop (UCI
   serves no Range headers, so failed attempts restart from zero).
+- Measured after download: 100.00 Hz median gap in both files, and the
+  commanded-concentration steps recover to a median inter-transition interval of
+  100 s (p10 76–79 s, p90 189–200 s, range 1–870 s). Against this corpus's own
+  τ_slow of 45–60 s, **the median gap is only ~2 τ_slow and is not a clean
+  gap** — which is why the published gap analysis measures history dependence
+  under realistic scheduling rather than a transition in isolation. Checksums
+  and the full interval distribution are in
+  [`dynamic-mixtures/PROVENANCE.md`](dynamic-mixtures/PROVENANCE.md).
 
 ## Beef spoilage (Harvard Dataverse 10.7910/DVN/XNFVTS)
 
