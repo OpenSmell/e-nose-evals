@@ -126,8 +126,9 @@ description even where the license badge reads CC BY 4.0. Treat as
   to stabilization, baseline placement, rise kinetics, or recovery are not
   supportable** from these files, and features correlated with substance may be
   partly correlated with undocumented onset position.
-- Acquisition-timing questions are with the authors; see
-  `docs/dewei-smellnet-acquisition-query.md` and
-  `docs/smellnet-offline-audit.md` in the OpenSmell root.
+- The audit these figures come from is `docs/smellnet-offline-audit.md` in the
+  OpenSmell root. Treat the missing timebase as a known limitation of the
+  release rather than a pending question — work here proceeds on the assumption
+  that it cannot be recovered, and on collecting first-party recordings instead.
 - Contrast worth noting: UCI 362 above ships `t0` with `time=0` at stimulus
   onset. That is the standard these files would need to meet.
